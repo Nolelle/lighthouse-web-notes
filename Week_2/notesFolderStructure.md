@@ -1,0 +1,14 @@
+### Notes
+
+Careful when exporting modujles with the ../ and ./
+
+./ references the current working directory
+../ references the parent directory.
+
+In the case of exporting modules, whether or not to use ./ and ../ is indicative of the where the file is in the working directory.
+
+Example: I want to export files into my test.js file in the test directory of my project. The files I want to export, are in the parent directory of the test folder.
+
+Export statements in my test file should have ../ to indicate that the files are in the parent folder.
+
+Example: I want to export a function into another file of the same level in the project structure. Then we must use ./ as the files are in the same two levels.
