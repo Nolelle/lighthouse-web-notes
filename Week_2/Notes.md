@@ -12,3 +12,6 @@ Example: I want to export files into my test.js file in the test directory of my
 Export statements in my test file should have ../ to indicate that the files are in the parent folder.
 
 Example: I want to export a function into another file of the same level in the project structure. Then we must use ./ as the files are in the same two levels.
+
+One line command for creating a .gitignore file ignoring just node_modules
+touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
