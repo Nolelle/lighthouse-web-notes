@@ -16,5 +16,6 @@ Example: I want to export a function into another file of the same level in the 
 One line command for creating a .gitignore file ignoring just node_modules
 touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
 
+Square brackets in the context of documentation as inputs to function means that the parameters are optional to the function.
 
-Square brackets in the context of documentation as inputs to function means that the parameters are optional to the function. 
+console.log will add a new line character (\n) to the end of the string. However, in Node we can use process.stdout.write instead to have more control and avoid automatically adding an extra "newline character" at the end each time.
