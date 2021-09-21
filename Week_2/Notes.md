@@ -15,3 +15,6 @@ Example: I want to export a function into another file of the same level in the 
 
 One line command for creating a .gitignore file ignoring just node_modules
 touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
+
+
+Square brackets in the context of documentation as inputs to function means that the parameters are optional to the function. 
